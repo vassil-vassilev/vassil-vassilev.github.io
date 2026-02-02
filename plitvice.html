@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Приключението Плитвице и Задар 🇭🇷</title>
-    
+
     <!-- Leaflet Map CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-    
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 
@@ -177,7 +177,7 @@
             padding-top: 15px;
             border-top: 1px solid #f1f5f9;
             overflow-x: auto;
-            padding-bottom: 5px; 
+            padding-bottom: 5px;
         }
 
         .thumb-img {
@@ -301,7 +301,7 @@
             line-height: 1;
             transition: transform 0.2s;
         }
-        
+
         .close-btn:hover { transform: scale(1.1); color: var(--accent); }
 
         /* --- MOBILE RESPONSIVE --- */
@@ -314,7 +314,7 @@
             .itinerary-container { padding: 1.5rem; }
             .day-card { margin-bottom: 1.5rem; }
             .card-image-banner { height: 180px; }
-            
+
             .prev-btn { left: 10px; top: auto; bottom: 50%; }
             .next-btn { right: 10px; top: auto; bottom: 50%; }
             .close-btn { top: 10px; right: 20px; font-size: 2.5rem; }
@@ -327,7 +327,7 @@
     <div id="content-panel">
         <div class="hero-header">
             <h1>Приключението Плитвице и Задар 🇭🇷</h1>
-            <p>5 Дни • Водопади • История • Залези</p>
+            <p>6 Дни • Водопади • Острови с лодка • Залези</p>
             <div class="stats-bar">
                 <span class="stat-pill">🚗 ~16ч Шофиране</span>
                 <span class="stat-pill">👨‍👩‍👧‍👦 Подходящо за деца</span>
@@ -394,7 +394,7 @@
                 desc: "Кратка спирка в <b>Смилян</b>, за да видим родната къща на Никола Тесла и научната площадка. След това към крайбрежието! В <b>Задар</b> ще поплуваме на плаж Коловоре и ще се отправим към Стария град за световноизвестния залез. <b>Морският орган</b> свири музика, задвижвана от вълните, докато <b>Поздрав към слънцето</b> осветява пода, за да танцуват децата.",
                 coords: [44.1194, 15.2314],
                 zoom: 8,
-                bannerImg: "https://www.fiestaybullshit.com/wp-content/uploads/2021/07/Fest.jpg", 
+                bannerImg: "https://www.fiestaybullshit.com/wp-content/uploads/2021/07/Fest.jpg",
                 gallery: [
                     { src: "https://www.fiestaybullshit.com/wp-content/uploads/2021/07/Fest.jpg", cap: "Задар: Известният залез до Морския орган." },
                     { src: "https://ichef.bbci.co.uk/images/ic/1200x675/p07qnmmw.jpg", cap: "Стъпалата на Морския орган, където океанът създава музика." },
@@ -404,6 +404,21 @@
             },
             {
                 day: "Ден 4",
+                title: "Острови с лодка: Углан и Ошляк (Speedboat!)",
+                driveTime: "0 часа",
+                desc: "Днешният ден е за <b>големия детски хит</b> — лодка! Тръгваме от пристанището на <b>Задар</b> с малка скоростна лодка (10–12 души), правим 2–3 кратки спирки за <b>плуване</b>, <b>шнорхел</b> и разходка из малки островни селца. Най-честият маршрут е към остров <b>Углан</b> и миниатюрния <b>Ошляк</b>. Следобед: сладолед в Стария град и още море.",
+                coords: [44.1152, 15.2242],
+                zoom: 7,
+                bannerImg: "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/b9/03/73.jpg",
+                gallery: [
+                    { src: "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/13/b9/03/73.jpg", cap: "Скоростна лодка и адреналин — фаворитът на децата." },
+                    { src: "https://croatia.hr/cmsmedia/Destinacija/Otoci/ugljan--ivan-sardi.jpg", cap: "Углан: спокойни заливи и селища за разходка." },
+                    { src: "https://framerusercontent.com/images/mpvN4dkOB3Kzxev4fnLjh2XIPs8.jpg?scale-down-to=2048", cap: "Ошляк: мини островче за 30–40 мин обиколка пеша." },
+                    { src: "https://cdn.getyourguide.com/image/format=auto,fit=contain,gravity=center,quality=60,width=1440,height=650,dpr=1/tour_img/45c479c555bb25ea48a88e4c9e97c8065ec9438a6cd2dbac575e040073ae61ed.jpg", cap: "Плуване и шнорхел в тюркоазени води (UV тениски препоръчителни)." }
+                ]
+            },
+            {
+                day: "Ден 5",
                 title: "Ленива сутрин и История: Към Винковци",
                 driveTime: "4 часа",
                 desc: "Днес не бързаме. Наслаждаваме се на бавно кафе на Римския форум в Задар или на последно потапяне в морето. Следобед шофираме обратно към границата, спирайки за нощувка във <b>Винковци</b>, най-стария постоянно населен град в Европа. Тих, безопасен и идеален за презареждане.",
@@ -416,7 +431,7 @@
                 ]
             },
             {
-                day: "Ден 5",
+                day: "Ден 6",
                 title: "Вкусът на Балканите: Обратно към София",
                 driveTime: "5.5-6 часа",
                 desc: "Финалната права! Прекъсваме пътуването в <b>Ниш, Сърбия</b> за легендарен обяд. Ще хапнем прочутата сръбска скара (рощил) близо до крепостта преди последното леко шофиране обратно към София. Ще си бъдем у дома вечерта, уморени, но пълни със спомени.",
@@ -424,7 +439,7 @@
                 zoom: 7,
                 bannerImg: "https://www.ekapija.com/thumbs/niska_tvrdjava_060323_tw1024.jpg",
                 gallery: [
-                    { src: "https://www.ekapija.com/thumbs/niska_tvrdjava_060323_tw1024.jpg", cap: "Портата на Нишката крепост." },
+                    { src: "https://www.ekapija.com/thumbs/niska_tvrdjava_060323_tw1024.jpg", cap: "Портата на Нишката крепост." }
                 ]
             }
         ];
@@ -437,7 +452,7 @@
         }).addTo(map);
 
         const markers = [];
-        
+
         // Draw Route Line
         const routePoints = [
             [42.6977, 23.3219], // Sofia
@@ -445,13 +460,14 @@
             [45.1601, 18.0156], // Slavonski Brod
             [44.9026, 15.6094], // Plitvice
             [44.1194, 15.2314], // Zadar
+            [44.1194, 15.2314], // Zadar (extra day)
             [45.2891, 18.8043], // Vinkovci
             [43.3209, 21.8958], // Nis
             [42.6977, 23.3219]  // Sofia
         ];
-        
+
         L.polyline(routePoints, {
-            color: '#0ea5e9', 
+            color: '#0ea5e9',
             weight: 5,
             dashArray: '10, 15',
             opacity: 0.8,
@@ -466,7 +482,7 @@
             const card = document.createElement('div');
             card.className = 'day-card';
             card.id = `card-${index}`;
-            
+
             // Build Thumbnail Row
             let thumbHtml = '<div class="thumb-row">';
             item.gallery.forEach((photo, imgIdx) => {
@@ -518,7 +534,7 @@
                 targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 activateStop(index);
             });
-            
+
             markers.push({marker, coords: item.coords, zoom: item.zoom});
         });
 
@@ -526,9 +542,9 @@
             // UI Updates
             document.querySelectorAll('.day-card').forEach(c => c.classList.remove('active'));
             document.getElementById(`card-${index}`).classList.add('active');
-            
+
             document.querySelectorAll('.number-icon').forEach(i => i.classList.remove('active-marker'));
-            
+
             // Map Move
             const data = markers[index];
             map.flyTo(data.coords, data.zoom, { duration: 1.5 });
@@ -570,7 +586,7 @@
         modal.addEventListener('click', (e) => {
             if (e.target === modal) closeModal();
         });
-        
+
         // Keyboard navigation
         document.addEventListener('keydown', (e) => {
             if (modal.style.display === 'flex') {
